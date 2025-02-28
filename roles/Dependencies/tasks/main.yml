@@ -1,0 +1,8 @@
+- name: Update apt cache and install prerequisites
+  apt:
+    update_cache: yes
+    name:
+      - docker.io
+      - docker-compose
+      - git
+    state: present

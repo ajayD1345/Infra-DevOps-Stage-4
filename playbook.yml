@@ -1,0 +1,6 @@
+- name: Configure and deploy application on the server
+  hosts: app_server
+  become: yes
+  roles:
+    - Dependencies
+    - Deployment
