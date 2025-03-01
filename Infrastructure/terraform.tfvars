@@ -1,7 +1,6 @@
 aws_region           = "us-east-2"
 ami                  = "ami-0cb91c7de36eed2cb" 
 instance_type        = "t2.micro"
-instance_public_ip   = "aws_instance.app_server.public_ip"
 key_name             = "id2.rsa"    
 ssh_user             = "ubuntu"
 filename             = "inventory.ini"
